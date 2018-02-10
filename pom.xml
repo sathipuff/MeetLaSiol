@@ -3,7 +3,7 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <packaging>war</packaging>
     <groupId>org.satchel</groupId>
     <artifactId>meetpoint</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -35,10 +35,17 @@
             <artifactId>spring-jdbc</artifactId>
             <version>5.0.3.RELEASE</version>
         </dependency>
+
+<!--        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>-->
     </dependencies>
 
     <properties>
         <java.version>9</java.version>
+        <!--<start-class>org.satchel.app.Application</start-class>-->
     </properties>
 
     <build>
