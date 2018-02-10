@@ -35,17 +35,15 @@
             <artifactId>spring-jdbc</artifactId>
             <version>5.0.3.RELEASE</version>
         </dependency>
-
-<!--        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <properties>
         <java.version>9</java.version>
-        <!--<start-class>org.satchel.app.Application</start-class>-->
     </properties>
 
     <build>
