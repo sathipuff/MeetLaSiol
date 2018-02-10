@@ -1,8 +1,8 @@
-package controllers;
+package meetpoint.controllers;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import model.Greeting;
+import meetpoint.model.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
